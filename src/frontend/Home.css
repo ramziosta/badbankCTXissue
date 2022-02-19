@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  background-image: url("../images/BadBank2.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.second {
+  background: rgba(197, 202, 205, 0.372);
+}
+
+.fa-user {
+  font-size: 35px;
+  text-decoration: none;
+  margin-left: 3.5rem;
+}
+
+.fa-user:hover {
+  color: red;
+  font-size: 40px;
+  transition: all 0.3s ease-out;
+}
+
+.twomill,
+.easier {
+  font-size: 3.5rem;
+  color: #ed2424;
+}
+
+.logocolor {
+  color: #0079d5;
+}
+
+.logocolor2 {
+  color: #ed2424;
+}
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px;
+}
+
+.Link {
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: .3rem;
+  cursor: pointer;
+  background-color: #0079d5;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 2rem 0rem;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+/*  X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .mainrow {
+    position:relative;
+    width:33%;
+    height:75%;
+    background: rgba(255, 255, 255, 0.399);
+    left:-2rem;
+    padding:3rem 0rem 5rem .5rem;
+    top:3rem;
+      }
+
+  .secondrow{
+      margin: 12rem 0rem 5rem 0rem;
+      padding: 3rem 0rem;
+    }
+
+    .secondtext{
+      margin-top:2rem;}}

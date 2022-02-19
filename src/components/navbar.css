@@ -1,0 +1,19 @@
+.logo {
+      cursor: pointer;
+    text-decoration: none;
+  }
+
+  .logo:hover,
+  .nav-link:hover
+  {
+    transition: all 0.3s ease-out;
+    border-bottom:8px solid #ed2424;
+    border-radius:0px;
+    
+  }
+  
+  @media screen and (max-width: 400px) {
+    .nav-pills{
+    margin-left: -4rem; 
+    }
+  }
